@@ -1,0 +1,9 @@
+image,path,pred_label,pred_conf
+01032026 Imagem 00 (1).jpeg,data/raw/01032026 Imagem 00 (1).jpeg,septoria,0.355254
+01032026 Imagem 00 (2).jpeg,data/raw/01032026 Imagem 00 (2).jpeg,septoria,0.775318
+01032026 Imagem 00 (3).jpeg,data/raw/01032026 Imagem 00 (3).jpeg,septoria,0.999937
+01032026 Imagem 00 (4).jpeg,data/raw/01032026 Imagem 00 (4).jpeg,septoria,0.982075
+01032026 Imagem 00 (5).jpeg,data/raw/01032026 Imagem 00 (5).jpeg,bacterial_blight,0.970183
+01032026 Imagem 00 (6).jpeg,data/raw/01032026 Imagem 00 (6).jpeg,ferrugen,0.375027
+01032026 Imagem 00 (7).jpeg,data/raw/01032026 Imagem 00 (7).jpeg,Yellow Mosaic,0.284047
+01032026 Imagem 00 (8).jpeg,data/raw/01032026 Imagem 00 (8).jpeg,Yellow Mosaic,0.954157

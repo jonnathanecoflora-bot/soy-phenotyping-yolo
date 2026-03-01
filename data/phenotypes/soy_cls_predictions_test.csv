@@ -1,0 +1,75 @@
+image,path,true_label,pred_label,pred_conf,is_correct
+bb (1).bmp,data/processed/soy_cls/test/bacterial_blight/bb (1).bmp,bacterial_blight,bacterial_blight,0.999769,1
+bb (11).bmp,data/processed/soy_cls/test/bacterial_blight/bb (11).bmp,bacterial_blight,bacterial_blight,0.999954,1
+bb (14).bmp,data/processed/soy_cls/test/bacterial_blight/bb (14).bmp,bacterial_blight,bacterial_blight,0.999879,1
+bb (15).bmp,data/processed/soy_cls/test/bacterial_blight/bb (15).bmp,bacterial_blight,bacterial_blight,0.998595,1
+bb (18).bmp,data/processed/soy_cls/test/bacterial_blight/bb (18).bmp,bacterial_blight,bacterial_blight,0.999696,1
+bb (2).bmp,data/processed/soy_cls/test/bacterial_blight/bb (2).bmp,bacterial_blight,bacterial_blight,0.999885,1
+bb (21).bmp,data/processed/soy_cls/test/bacterial_blight/bb (21).bmp,bacterial_blight,bacterial_blight,0.999935,1
+bb (40).jpg,data/processed/soy_cls/test/bacterial_blight/bb (40).jpg,bacterial_blight,bacterial_blight,0.999993,1
+bb (49).jpg,data/processed/soy_cls/test/bacterial_blight/bb (49).jpg,bacterial_blight,bacterial_blight,0.999297,1
+bs (1).bmp,data/processed/soy_cls/test/brown_spot/bs (1).bmp,brown_spot,brown_spot,0.996941,1
+bs (11).bmp,data/processed/soy_cls/test/brown_spot/bs (11).bmp,brown_spot,brown_spot,0.970366,1
+bs (14).bmp,data/processed/soy_cls/test/brown_spot/bs (14).bmp,brown_spot,brown_spot,0.999494,1
+bs (18).bmp,data/processed/soy_cls/test/brown_spot/bs (18).bmp,brown_spot,brown_spot,0.999975,1
+bs (2).bmp,data/processed/soy_cls/test/brown_spot/bs (2).bmp,brown_spot,brown_spot,1.0,1
+bs (22).bmp,data/processed/soy_cls/test/brown_spot/bs (22).bmp,brown_spot,brown_spot,0.994196,1
+bs (23).bmp,data/processed/soy_cls/test/brown_spot/bs (23).bmp,brown_spot,brown_spot,0.998216,1
+bs (23).jpg,data/processed/soy_cls/test/brown_spot/bs (23).jpg,brown_spot,brown_spot,0.993676,1
+bs (52).bmp,data/processed/soy_cls/test/brown_spot/bs (52).bmp,brown_spot,brown_spot,0.999627,1
+DSC_0006.jpg,data/processed/soy_cls/test/ferrugen/DSC_0006.jpg,ferrugen,ferrugen,0.994382,1
+DSC_0013.jpg,data/processed/soy_cls/test/ferrugen/DSC_0013.jpg,ferrugen,ferrugen,0.999354,1
+DSC_0026.jpg,data/processed/soy_cls/test/ferrugen/DSC_0026.jpg,ferrugen,ferrugen,0.998853,1
+DSC_0141.jpg,data/processed/soy_cls/test/ferrugen/DSC_0141.jpg,ferrugen,ferrugen,0.995013,1
+DSC_0151.jpg,data/processed/soy_cls/test/ferrugen/DSC_0151.jpg,ferrugen,ferrugen,0.997981,1
+DSC_0164.jpg,data/processed/soy_cls/test/ferrugen/DSC_0164.jpg,ferrugen,ferrugen,0.993665,1
+DSC_0165.jpg,data/processed/soy_cls/test/ferrugen/DSC_0165.jpg,ferrugen,ferrugen,0.999239,1
+DSC_0114.jpg,data/processed/soy_cls/test/Mossaic Virus/DSC_0114.jpg,Mossaic Virus,Mossaic Virus,0.694679,1
+DSC_0134.jpg,data/processed/soy_cls/test/Mossaic Virus/DSC_0134.jpg,Mossaic Virus,Mossaic Virus,0.9688,1
+DSC_0139.jpg,data/processed/soy_cls/test/Mossaic Virus/DSC_0139.jpg,Mossaic Virus,Mossaic Virus,0.962875,1
+aug_aug_aug_DSC_0069.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_aug_DSC_0069.jpg,powdery_mildew,powdery_mildew,0.999064,1
+aug_aug_aug_DSC_0208.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_aug_DSC_0208.jpg,powdery_mildew,powdery_mildew,0.999925,1
+aug_aug_DSC_0068.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_DSC_0068.jpg,powdery_mildew,powdery_mildew,0.999371,1
+aug_aug_DSC_0219.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_DSC_0219.jpg,powdery_mildew,powdery_mildew,0.999992,1
+aug_aug_DSC_0231.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_DSC_0231.jpg,powdery_mildew,powdery_mildew,0.999102,1
+aug_aug_OidioCVGc.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_OidioCVGc.jpg,powdery_mildew,powdery_mildew,0.999574,1
+aug_DSC_0055.jpg,data/processed/soy_cls/test/powdery_mildew/aug_DSC_0055.jpg,powdery_mildew,powdery_mildew,0.998581,1
+aug_DSC_0074.jpg,data/processed/soy_cls/test/powdery_mildew/aug_DSC_0074.jpg,powdery_mildew,powdery_mildew,0.997422,1
+aug_DSC_0075.jpg,data/processed/soy_cls/test/powdery_mildew/aug_DSC_0075.jpg,powdery_mildew,powdery_mildew,0.973804,1
+DSC_0057.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0057.jpg,powdery_mildew,powdery_mildew,0.999808,1
+DSC_0059.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0059.jpg,powdery_mildew,powdery_mildew,0.999704,1
+DSC_0070.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0070.jpg,powdery_mildew,powdery_mildew,0.996575,1
+DSC_0085.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0085.jpg,powdery_mildew,powdery_mildew,0.995804,1
+DSC_0226.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0226.jpg,powdery_mildew,powdery_mildew,0.999605,1
+DSC_0073.jpg,data/processed/soy_cls/test/septoria/DSC_0073.jpg,septoria,ferrugen,0.617707,0
+Septoriac.jpg,data/processed/soy_cls/test/septoria/Septoriac.jpg,septoria,septoria,0.999857,1
+Septoriag.jpg,data/processed/soy_cls/test/septoria/Septoriag.jpg,septoria,septoria,0.99121,1
+DSC_0023.jpg,data/processed/soy_cls/test/Southern blight/DSC_0023.jpg,Southern blight,Southern blight,0.940387,1
+DSC_0028.jpg,data/processed/soy_cls/test/Southern blight/DSC_0028.jpg,Southern blight,Southern blight,0.99964,1
+DSC_0038.jpg,data/processed/soy_cls/test/Southern blight/DSC_0038.jpg,Southern blight,Southern blight,0.998755,1
+DSC_0107.jpg,data/processed/soy_cls/test/Southern blight/DSC_0107.jpg,Southern blight,Southern blight,0.999622,1
+DSC_0109.jpg,data/processed/soy_cls/test/Southern blight/DSC_0109.jpg,Southern blight,Southern blight,0.999974,1
+DSC_0150.jpg,data/processed/soy_cls/test/Southern blight/DSC_0150.jpg,Southern blight,Southern blight,0.954176,1
+DSC_0152.jpg,data/processed/soy_cls/test/Southern blight/DSC_0152.jpg,Southern blight,Southern blight,0.98624,1
+Sudden DS (102).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (102).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999441,1
+Sudden DS (108).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (108).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999998,1
+Sudden DS (109).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (109).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999886,1
+Sudden DS (27).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (27).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999999,1
+Sudden DS (40).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (40).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999998,1
+Sudden DS (58).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (58).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.99996,1
+Sudden DS (61).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (61).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.993809,1
+Sudden DS (70).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (70).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999725,1
+Sudden DS (71).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (71).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.998575,1
+Sudden DS (76).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (76).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.9997,1
+Sudden DS (87).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (87).jpg,Sudden Death Syndrone,Sudden Death Syndrone,0.999973,1
+YM (102).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (102).jpg,Yellow Mosaic,Yellow Mosaic,0.999034,1
+YM (108).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (108).jpg,Yellow Mosaic,Yellow Mosaic,0.998626,1
+YM (109).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (109).jpg,Yellow Mosaic,Yellow Mosaic,0.998451,1
+YM (27).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (27).jpg,Yellow Mosaic,Yellow Mosaic,0.999606,1
+YM (40).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (40).jpg,Yellow Mosaic,Yellow Mosaic,0.993051,1
+YM (58).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (58).jpg,Yellow Mosaic,Yellow Mosaic,0.999676,1
+YM (61).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (61).jpg,Yellow Mosaic,Yellow Mosaic,0.989474,1
+YM (70).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (70).jpg,Yellow Mosaic,Yellow Mosaic,0.999975,1
+YM (71).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (71).jpg,Yellow Mosaic,Yellow Mosaic,0.993173,1
+YM (76).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (76).jpg,Yellow Mosaic,Yellow Mosaic,0.999281,1
+YM (87).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (87).jpg,Yellow Mosaic,Yellow Mosaic,0.997431,1

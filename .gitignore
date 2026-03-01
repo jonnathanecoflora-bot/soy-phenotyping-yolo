@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+
+# DADOS (não subir)
+data/raw/
+data/dataset/
+data/runs/
+runs/
+data/external/
+data/processed/
+data/external_curated/
+models/
+
+# Outputs leves (opcional subir CSV, mas não imagens de debug)
+data/phenotypes/debug_masks*/
+data/phenotypes/debug_*/
+
+# Pesos/modelos baixados/gerados
+*.pt
+
+*.ipynb_checkpoints
+.DS_Store

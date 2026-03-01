@@ -1,0 +1,75 @@
+image,path,true_label,leaf_area_px,lesion_area_px,severity_proxy_pct
+DSC_0114.jpg,data/processed/soy_cls/test/Mossaic Virus/DSC_0114.jpg,Mossaic Virus,12730407,4220883,33.1559
+DSC_0134.jpg,data/processed/soy_cls/test/Mossaic Virus/DSC_0134.jpg,Mossaic Virus,12614172,4328320,34.3132
+DSC_0139.jpg,data/processed/soy_cls/test/Mossaic Virus/DSC_0139.jpg,Mossaic Virus,12712176,4707583,37.0321
+DSC_0023.jpg,data/processed/soy_cls/test/Southern blight/DSC_0023.jpg,Southern blight,12780288,5035641,39.4016
+DSC_0028.jpg,data/processed/soy_cls/test/Southern blight/DSC_0028.jpg,Southern blight,12692712,4098324,32.2888
+DSC_0038.jpg,data/processed/soy_cls/test/Southern blight/DSC_0038.jpg,Southern blight,12709388,4015083,31.5915
+DSC_0107.jpg,data/processed/soy_cls/test/Southern blight/DSC_0107.jpg,Southern blight,12698476,4423952,34.8384
+DSC_0109.jpg,data/processed/soy_cls/test/Southern blight/DSC_0109.jpg,Southern blight,12551334,3474985,27.6862
+DSC_0150.jpg,data/processed/soy_cls/test/Southern blight/DSC_0150.jpg,Southern blight,12637689,4131299,32.6903
+DSC_0152.jpg,data/processed/soy_cls/test/Southern blight/DSC_0152.jpg,Southern blight,12736065,4231395,33.2237
+Sudden DS (102).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (102).jpg,Sudden Death Syndrone,15876870,3454486,21.758
+Sudden DS (108).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (108).jpg,Sudden Death Syndrone,15902038,4999427,31.4389
+Sudden DS (109).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (109).jpg,Sudden Death Syndrone,15902278,3526781,22.1778
+Sudden DS (27).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (27).jpg,Sudden Death Syndrone,15834061,5553259,35.0716
+Sudden DS (40).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (40).jpg,Sudden Death Syndrone,15906383,4384437,27.564
+Sudden DS (58).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (58).jpg,Sudden Death Syndrone,15903825,2719356,17.0988
+Sudden DS (61).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (61).jpg,Sudden Death Syndrone,15857129,4394352,27.7122
+Sudden DS (70).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (70).jpg,Sudden Death Syndrone,15903655,3080627,19.3706
+Sudden DS (71).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (71).jpg,Sudden Death Syndrone,15918501,2512864,15.7858
+Sudden DS (76).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (76).jpg,Sudden Death Syndrone,15911456,3341936,21.0033
+Sudden DS (87).jpg,data/processed/soy_cls/test/Sudden Death Syndrone/Sudden DS (87).jpg,Sudden Death Syndrone,15882254,2381754,14.9963
+YM (102).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (102).jpg,Yellow Mosaic,15920109,11713756,73.5784
+YM (108).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (108).jpg,Yellow Mosaic,15925248,15726559,98.7524
+YM (109).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (109).jpg,Yellow Mosaic,15920105,13934358,87.5268
+YM (27).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (27).jpg,Yellow Mosaic,48000000,36794160,76.6545
+YM (40).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (40).jpg,Yellow Mosaic,48000000,46586922,97.0561
+YM (58).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (58).jpg,Yellow Mosaic,48000000,38431513,80.0657
+YM (61).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (61).jpg,Yellow Mosaic,48000000,41814487,87.1135
+YM (70).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (70).jpg,Yellow Mosaic,12979200,4815738,37.1035
+YM (71).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (71).jpg,Yellow Mosaic,12939265,1149428,8.8833
+YM (76).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (76).jpg,Yellow Mosaic,12979200,6177260,47.5935
+YM (87).jpg,data/processed/soy_cls/test/Yellow Mosaic/YM (87).jpg,Yellow Mosaic,15916130,14431811,90.6741
+bb (1).bmp,data/processed/soy_cls/test/bacterial_blight/bb (1).bmp,bacterial_blight,62500,21879,35.0064
+bb (11).bmp,data/processed/soy_cls/test/bacterial_blight/bb (11).bmp,bacterial_blight,62500,16143,25.8288
+bb (14).bmp,data/processed/soy_cls/test/bacterial_blight/bb (14).bmp,bacterial_blight,62500,19226,30.7616
+bb (15).bmp,data/processed/soy_cls/test/bacterial_blight/bb (15).bmp,bacterial_blight,62500,17700,28.32
+bb (18).bmp,data/processed/soy_cls/test/bacterial_blight/bb (18).bmp,bacterial_blight,62500,19863,31.7808
+bb (2).bmp,data/processed/soy_cls/test/bacterial_blight/bb (2).bmp,bacterial_blight,62500,21188,33.9008
+bb (21).bmp,data/processed/soy_cls/test/bacterial_blight/bb (21).bmp,bacterial_blight,62500,21185,33.896
+bb (40).jpg,data/processed/soy_cls/test/bacterial_blight/bb (40).jpg,bacterial_blight,23361,21559,92.2863
+bb (49).jpg,data/processed/soy_cls/test/bacterial_blight/bb (49).jpg,bacterial_blight,32449,31196,96.1386
+bs (1).bmp,data/processed/soy_cls/test/brown_spot/bs (1).bmp,brown_spot,62500,8259,13.2144
+bs (11).bmp,data/processed/soy_cls/test/brown_spot/bs (11).bmp,brown_spot,62500,23624,37.7984
+bs (14).bmp,data/processed/soy_cls/test/brown_spot/bs (14).bmp,brown_spot,62500,33054,52.8864
+bs (18).bmp,data/processed/soy_cls/test/brown_spot/bs (18).bmp,brown_spot,62500,45379,72.6064
+bs (2).bmp,data/processed/soy_cls/test/brown_spot/bs (2).bmp,brown_spot,62500,38960,62.336
+bs (22).bmp,data/processed/soy_cls/test/brown_spot/bs (22).bmp,brown_spot,23682,22530,95.1355
+bs (23).bmp,data/processed/soy_cls/test/brown_spot/bs (23).bmp,brown_spot,62500,7185,11.496
+bs (23).jpg,data/processed/soy_cls/test/brown_spot/bs (23).jpg,brown_spot,62500,20077,32.1232
+bs (52).bmp,data/processed/soy_cls/test/brown_spot/bs (52).bmp,brown_spot,62500,49250,78.8
+DSC_0006.jpg,data/processed/soy_cls/test/ferrugen/DSC_0006.jpg,ferrugen,62500,4328,6.9248
+DSC_0013.jpg,data/processed/soy_cls/test/ferrugen/DSC_0013.jpg,ferrugen,62500,11034,17.6544
+DSC_0026.jpg,data/processed/soy_cls/test/ferrugen/DSC_0026.jpg,ferrugen,62500,11126,17.8016
+DSC_0141.jpg,data/processed/soy_cls/test/ferrugen/DSC_0141.jpg,ferrugen,62500,10354,16.5664
+DSC_0151.jpg,data/processed/soy_cls/test/ferrugen/DSC_0151.jpg,ferrugen,62500,9669,15.4704
+DSC_0164.jpg,data/processed/soy_cls/test/ferrugen/DSC_0164.jpg,ferrugen,62500,11979,19.1664
+DSC_0165.jpg,data/processed/soy_cls/test/ferrugen/DSC_0165.jpg,ferrugen,62500,9931,15.8896
+DSC_0057.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0057.jpg,powdery_mildew,62500,6824,10.9184
+DSC_0059.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0059.jpg,powdery_mildew,62500,6370,10.192
+DSC_0070.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0070.jpg,powdery_mildew,62500,4025,6.44
+DSC_0085.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0085.jpg,powdery_mildew,62500,6799,10.8784
+DSC_0226.jpg,data/processed/soy_cls/test/powdery_mildew/DSC_0226.jpg,powdery_mildew,62500,2387,3.8192
+aug_DSC_0055.jpg,data/processed/soy_cls/test/powdery_mildew/aug_DSC_0055.jpg,powdery_mildew,62500,2940,4.704
+aug_DSC_0074.jpg,data/processed/soy_cls/test/powdery_mildew/aug_DSC_0074.jpg,powdery_mildew,62500,5253,8.4048
+aug_DSC_0075.jpg,data/processed/soy_cls/test/powdery_mildew/aug_DSC_0075.jpg,powdery_mildew,62500,6953,11.1248
+aug_aug_DSC_0068.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_DSC_0068.jpg,powdery_mildew,62500,8039,12.8624
+aug_aug_DSC_0219.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_DSC_0219.jpg,powdery_mildew,62500,2153,3.4448
+aug_aug_DSC_0231.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_DSC_0231.jpg,powdery_mildew,62500,3010,4.816
+aug_aug_OidioCVGc.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_OidioCVGc.jpg,powdery_mildew,1228800,119743,9.7447
+aug_aug_aug_DSC_0069.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_aug_DSC_0069.jpg,powdery_mildew,62500,5288,8.4608
+aug_aug_aug_DSC_0208.jpg,data/processed/soy_cls/test/powdery_mildew/aug_aug_aug_DSC_0208.jpg,powdery_mildew,62500,2755,4.408
+DSC_0073.jpg,data/processed/soy_cls/test/septoria/DSC_0073.jpg,septoria,62500,7241,11.5856
+Septoriac.jpg,data/processed/soy_cls/test/septoria/Septoriac.jpg,septoria,306740,172939,56.3797
+Septoriag.jpg,data/processed/soy_cls/test/septoria/Septoriag.jpg,septoria,307200,305275,99.3734
