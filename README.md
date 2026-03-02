@@ -38,7 +38,7 @@ a acurácia cai. A correção é treinar com mais diversidade e fotos reais.
 ---
 
 ## Estrutura das fotos (passo manual mais importante)
-Crie estas pastas e coloque imagens `.jpg/.png` dentro da classe correta:
+coloque imagens `.jpg/.png` dentro da classe correta:
 
 ```text
 data/external_curated/
@@ -72,7 +72,7 @@ Ative o ambiente:
 
 **Windows (cmd)**
 ```bat
-.\.venv\Scriptsctivate.bat
+.\.venv\Scripts\activate.bat
 ```
 
 Instale dependências:
