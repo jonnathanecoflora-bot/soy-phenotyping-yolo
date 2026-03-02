@@ -55,7 +55,8 @@ data/external_curated/
 
 ---
 
-## Setup (uma vez)
+## 1) Instalar dependências (uma vez)
+
 Abra um terminal **na pasta do projeto** e rode:
 
 ```bash
@@ -75,6 +76,7 @@ Ative o ambiente:
 ```
 
 Instale dependências:
+
 ```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt
@@ -93,6 +95,7 @@ python src/10_prepare_dataset_curated.py
 ```
 
 Saída esperada:
+
 ```text
 data/processed/soy_4class/
   train/
@@ -108,6 +111,7 @@ python src/11_train_4class_cpu.py
 ```
 
 Pesos do modelo treinado:
+
 ```text
 models/soy_4class_yolov8s/weights/best.pt
 ```
@@ -126,6 +130,7 @@ python src/12_infer_4class_test.py
 ```
 
 Arquivo gerado:
+
 ```text
 data/phenotypes/soy_4class_predictions_test.csv
 ```
@@ -142,16 +147,19 @@ Colunas:
 
 ## (Opcional) Rodar previsão em fotos novas (fora do dataset)
 Coloque fotos novas em:
+
 ```text
 data/raw/
 ```
 
 Rode:
+
 ```bash
 python src/05_infer_raw.py
 ```
 
 Gera:
+
 ```text
 data/phenotypes/soy_raw_predictions.csv
 ```
@@ -167,6 +175,7 @@ Este repositório **não** deve subir:
 - `*.pt` (pesos)
 
 Antes de dar commit/push:
+
 ```bash
 git status
 ```
