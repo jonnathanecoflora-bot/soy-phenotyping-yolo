@@ -46,141 +46,117 @@ data/external_curated/
   mancha_alvo/
   dfc_septoria/
   dfc_cercospora/
-```
+Quantas imagens?
 
-### Quantas imagens?
-- **mínimo para rodar:** ~50 por classe
-- **recomendado:** 200–500+ por classe
-- diversidade é melhor que duplicatas (varie luz, ângulo, fundo, estádio, celular).
+mínimo para rodar: ~50 por classe
 
----
+recomendado: 200–500+ por classe
 
-## 1) Instalar dependências (uma vez)
+diversidade é melhor que duplicatas (varie luz, ângulo, fundo, estádio, celular).
 
-Abra um terminal **na pasta do projeto** e rode:
+1) Instalar dependências (uma vez)
 
-```bash
+Abra um terminal na pasta do projeto e rode:
+
 python -m venv .venv
-```
 
 Ative o ambiente:
 
-**Windows (PowerShell)**
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
+Windows (PowerShell)
 
-**Windows (cmd)**
-```bat
-.\.venv\Scriptsctivate.bat
-```
+.\.venv\Scripts\Activate.ps1
+
+Windows (cmd)
+
+.\.venv\Scripts\activate.bat
 
 Instale dependências:
 
-```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-```
+2) Criar splits (train/val/test)
 
----
-
-## Passo 1 — Criar splits (train/val/test)
 Isso cria automaticamente:
-- ~70% treino
-- ~20% validação
-- ~10% teste
 
-```bash
+~70% treino
+
+~20% validação
+
+~10% teste
+
 python src/10_prepare_dataset_curated.py
-```
 
 Saída esperada:
 
-```text
 data/processed/soy_4class/
   train/
   val/
   test/
-```
-
----
-
-## Passo 2 — Treinar o modelo (CPU-friendly)
-```bash
+3) Treinar o modelo (CPU-friendly)
 python src/11_train_4class_cpu.py
-```
 
 Pesos do modelo treinado:
 
-```text
 models/soy_4class_yolov8s/weights/best.pt
-```
+Se estiver lento ou travando
 
-### Se estiver lento ou travando
-Edite `src/11_train_4class_cpu.py` e reduza:
-- `batch=8` → `batch=4` (ou `2`)
-- `epochs=20` → `epochs=10`
-- `workers=2` → `workers=1`
+Edite src/11_train_4class_cpu.py e reduza:
 
----
+batch=8 → batch=4 (ou 2)
 
-## Passo 3 — Avaliar no teste e gerar CSV
-```bash
+epochs=20 → epochs=10
+
+workers=2 → workers=1
+
+4) Avaliar no teste e gerar CSV
 python src/12_infer_4class_test.py
-```
 
 Arquivo gerado:
 
-```text
 data/phenotypes/soy_4class_predictions_test.csv
-```
 
 Colunas:
-- `true_label` — pasta (verdadeiro)
-- `pred_label` — previsão do modelo
-- `pred_conf` — confiança
-- `is_correct` — 1 (acertou) / 0 (errou)
 
-> O CSV é gerado com separador `;` e decimal `,` para abrir corretamente no Excel PT-BR.
+true_label — pasta (verdadeiro)
 
----
+pred_label — previsão do modelo
 
-## (Opcional) Rodar previsão em fotos novas (fora do dataset)
+pred_conf — confiança
+
+is_correct — 1 (acertou) / 0 (errou)
+
+O CSV é gerado com separador ; e decimal , para abrir corretamente no Excel PT-BR.
+
+(Opcional) Rodar previsão em fotos novas (fora do dataset)
+
 Coloque fotos novas em:
 
-```text
 data/raw/
-```
 
 Rode:
 
-```bash
 python src/05_infer_raw.py
-```
 
 Gera:
 
-```text
 data/phenotypes/soy_raw_predictions.csv
-```
+Publicar no GitHub (manter o repositório limpo)
 
----
+Este repositório não deve subir:
 
-## Publicar no GitHub (manter o repositório limpo)
-Este repositório **não** deve subir:
-- `.venv/`
-- `data/external/` ou `data/external_curated/`
-- `data/processed/`
-- `models/`
-- `*.pt` (pesos)
+.venv/
+
+data/external/ ou data/external_curated/
+
+data/processed/
+
+models/
+
+*.pt (pesos)
 
 Antes de dar commit/push:
 
-```bash
 git status
-```
+Licença
 
----
-
-## Licença
-MIT — veja o arquivo `LICENSE`.
+MIT — veja o arquivo LICENSE.
